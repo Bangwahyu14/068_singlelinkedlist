@@ -8,3 +8,7 @@ struct node {
 };
 
 Node* START = NULL;
+
+void addNode() {
+	int nim;
+}
