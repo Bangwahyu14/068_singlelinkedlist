@@ -72,3 +72,20 @@ bool listEmpty() {
 	else
 		return false;
 }
+void raverse() {
+	if (listEmpty()) {
+		cout << ”List Kosong' << endl; 
+			system(“pause”);
+		system(“cls”);
+		return;
+	}
+	else {
+		Node* currentNode = START;
+		while (currentNode != NULL) {
+			cout << ”NIM: ” << currentNode->noMhs << ”, Nama : ” << currentNode->name << endl;
+			currentNode = currentNode->next;
+		}
+	}
+}
+
+
