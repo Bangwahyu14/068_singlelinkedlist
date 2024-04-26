@@ -17,5 +17,13 @@ void addNode() {
 	cin >> nim;
 	cout << "Masukkan Nama: ";
 	cin >> nama;
+	nodeBaru->noMhs = nim;
+	nodeBaru->name = name;
 
+	if (STAR == NULL || nim <= STAR->noMhs) {
+		if (STAR != NULL && nim == STAR->noMhs)
+		{
+
+		}
+	}
 }
